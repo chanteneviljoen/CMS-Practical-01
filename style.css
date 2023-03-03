@@ -1,0 +1,144 @@
+/* Style of the Body */
+body {
+ padding: 30px;
+ font-family: Arial, Sans-Serif;
+ color: black;
+ background-color: white;
+ font-size: 18px; 
+ height: 100%;
+ text-align: left;
+ }
+
+/* Align logo to the top left of the page  */
+.banner{ 
+	text-align:left;
+	color: #006400;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 25px; 
+}
+
+/* Footer style */
+.footer {
+	padding: 1px;
+	font-family: Arial, Sans-Serif;
+	color: white;
+	background-color:  #006400;
+	flex-shrink: 0;
+	text-align: center;
+	font-size: 10px;	
+}
+	
+/* Heading styles */
+h1 {
+ color: #006400;
+ font-family: Verdana, Arial, Sans-Serif;
+ font-size: 25px; 
+}
+h2 {
+ color: #228B22;
+ font-family: Arial, Sans-Serif;
+ font-size: 18px; 
+}
+h3 {
+ color: white;
+ font-family: Arial, Sans-Serif;
+ font-size: 18px; 
+}
+
+/* Top Navigation Bar */
+.topnavbar {
+  background-color:  #006400;
+  overflow: hidden;
+}
+
+/* Link on the Top Navigation Bar */
+.topnavbar a {
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  width: 31%;
+  font-family: Verdana, Arial, Sans-Serif;
+}
+
+/* Top Navigation Bar when curser is hovering over it  */
+.topnavbar a:hover {
+  background-color: #228B22;
+  color: white;
+}
+
+/* Top Navigation Bar when it has been clicked on  */
+.topnavbar a.active {
+  background-color: #a3c2c2;
+  color: white;
+}
+
+
+
+/* Bottom Navigation Bar */
+.bottomnavbar {
+  background-color: #006400;
+  overflow: hidden;
+}
+
+/* Link on the Bottom Navigation Bar */
+.bottomnavbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  width: 31%;
+  font-family: Verdana, Arial, Sans-Serif;
+}
+
+/* Bottom Navigation Bar when curser is hovering over it  */
+.bottomnavbar a:hover {
+  background-color: #228B22;
+  color: white;
+}
+
+/* Bottom Navigation Bar when it has been clisked on  */
+.bottomnavbar a.active {
+  background-color: #a3c2c2;
+  color: white;
+}
+
+/* Call to Action Button to sign up for weekly specials  */
+.calltoaction {
+  width: 20%;
+  font-size: 14px;
+  font-family: Verdana, Arial, Sans-Serif;
+  border: 0;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: #006400;
+  overflow: hidden;
+}
+
+/* images displayed side by side */
+.indeximages {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.weeklyspecialsimages {
+  float: left;
+  width: 48%;
+  padding: 10px;
+}
+.menuimages {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
